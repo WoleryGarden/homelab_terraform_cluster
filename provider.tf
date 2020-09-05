@@ -10,4 +10,5 @@ provider "consul" {
   address = var.consul_address
   scheme  = var.consul_scheme
   token   = var.consul_token
+  version = "~> 2.9"
 }
